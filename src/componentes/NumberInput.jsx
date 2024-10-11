@@ -22,6 +22,9 @@ const NumberInput = () => {
                 <input name='numero2' value={numero2} onChange={handleChange} type="number" />
             </label>
             <Resultado operacion={suma} calculo={suma()}/>
+            <Resultado operacion={resta} calculo={resta()}/>
+            <Resultado operacion={division} calculo={division()}/>
+            <Resultado operacion={multiplicacion} calculo={multiplicacion()}/>
         </>
     )
 }
