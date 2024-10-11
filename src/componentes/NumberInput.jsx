@@ -9,7 +9,7 @@ const NumberInput = () => {
         numero2: 0
     });
 
-    const { handleChange, suma, numero1, numero2 } = Operaciones(numeros, setNumeros);
+    const { handleChange, suma, resta, division, multiplicacion, numero1, numero2 } = Operaciones(numeros, setNumeros);
 
     return (
         <>
