@@ -18,6 +18,9 @@ const NumberInput = () => {
                     Número 1:
                     <input name="numero1" value={numero1} onChange={handleChange} type="number" />
                 </label>
+            </div>
+
+            <div>
                 <label htmlFor="numero2">
                     Número 2:
                     <input name="numero2" value={numero2} onChange={handleChange} type="number" />
