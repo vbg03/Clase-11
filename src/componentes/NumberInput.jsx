@@ -14,15 +14,17 @@ const NumberInput = () => {
     return (
         <>
             <div>
-                <label htmlFor="">
+                <label htmlFor="numero1">
                     Número 1:
-                    <input name='numero1' value={numero1} onChange={handleChange} type="number" />
+                    <input name="numero1" value={numero1} onChange={handleChange} type="number" />
                 </label>
-                <label htmlFor="">
+                <label htmlFor="numero2">
                     Número 2:
-                    <input name='numero2' value={numero2} onChange={handleChange} type="number" />
+                    <input name="numero2" value={numero2} onChange={handleChange} type="number" />
                 </label>
+            </div>
 
+            <div>
                 <Resultado operacion="Suma" calculo={suma()} />
                 <Resultado operacion="Resta" calculo={resta()} />
                 <Resultado operacion="Multiplicación" calculo={multiplicacion()} />
