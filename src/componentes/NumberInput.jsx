@@ -13,18 +13,56 @@ const NumberInput = () => {
 
     return (
         <>
-            <label htmlFor="">
-                numero 1: 
-                <input name='numero1' value={numero1} onChange={handleChange} type="number" />
-            </label>
-            <label htmlFor="">
-                numero 2: 
-                <input name='numero2' value={numero2} onChange={handleChange} type="number" />
-            </label>
-            <Resultado operacion={suma} calculo={suma()}/>
-            <Resultado operacion={resta} calculo={resta()}/>
-            <Resultado operacion={division} calculo={division()}/>
-            <Resultado operacion={multiplicacion} calculo={multiplicacion()}/>
+
+            <div>
+                <label htmlFor="">
+                    numero 1:
+                    <input name='numero1' value={numero1} onChange={handleChange} type="number" />
+                </label>
+                <label htmlFor="">
+                    numero 2:
+                    <input name='numero2' value={numero2} onChange={handleChange} type="number" />
+                </label>
+                <Resultado operacion={suma} calculo={suma()} />
+            </div>
+
+            <div>
+                <label htmlFor="">
+                    numero 1:
+                    <input name='numero1' value={numero1} onChange={handleChange} type="number" />
+                </label>
+                <label htmlFor="">
+                    numero 2:
+                    <input name='numero2' value={numero2} onChange={handleChange} type="number" />
+                </label>
+                <Resultado operacion={resta} calculo={resta()} />
+            </div>
+
+            <div>
+                <label htmlFor="">
+                    numero 1:
+                    <input name='numero1' value={numero1} onChange={handleChange} type="number" />
+                </label>
+                <label htmlFor="">
+                    numero 2:
+                    <input name='numero2' value={numero2} onChange={handleChange} type="number" />
+                </label>
+                <Resultado operacion={division} calculo={division()} />
+            </div>
+
+            <div>
+                <label htmlFor="">
+                    numero 1:
+                    <input name='numero1' value={numero1} onChange={handleChange} type="number" />
+                </label>
+                <label htmlFor="">
+                    numero 2:
+                    <input name='numero2' value={numero2} onChange={handleChange} type="number" />
+                </label>
+                <Resultado operacion={multiplicacion} calculo={multiplicacion()} />
+            </div>
+            
+            
         </>
     )
 }
