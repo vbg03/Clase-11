@@ -4,7 +4,9 @@ import NumberInput from './NumberInput'
 const Calculadora = () => {
   return (
     <>
-    <NumberInput/>
+      <div className='calculadora-container'>
+        <NumberInput />
+      </div>
     </>
   )
 }

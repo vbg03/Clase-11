@@ -10,21 +10,10 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={appLogo} className="logo" alt="mi-primer-pwa-con-proptypes logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>mi-primer-pwa-con-proptypes</h1>
-      <div className="card">
+      <h1>Calculadora</h1>
+      <div className="container">
         <Calculadora/>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
       <PWABadge />
     </>
   )

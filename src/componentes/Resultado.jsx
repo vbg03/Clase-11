@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Resultado = ({ operacion, calculo }) => {
     return (
         <>
-            <p>{operacion}: {calculo}</p>
+            <p className='resultados'><strong>{operacion}:</strong> <span>{calculo}</span></p>
         </>
     );
 };

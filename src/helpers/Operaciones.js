@@ -13,5 +13,5 @@ export const Operaciones = (numeros, setnumeros) => {
     const multiplicacion = () => numero1 * numero2;
     const division = () => numero2 !== 0 ? numero1 / numero2 : 'No se puede dividir entre 0';
 
-    return { handleChange, suma, resta, multiplicacion, division, numero1, numero2 };
+    return {handleChange, suma, resta, multiplicacion, division, numero1, numero2};
   };
